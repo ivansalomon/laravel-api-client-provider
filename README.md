@@ -6,7 +6,7 @@ An ApiClientProvider for Laravel.
 ### Composer
 Add Laravel Api Client to your composer.json file.
 ```
-"triadev/LaravelApiClientProvider": "1.*"
+"triadev/laravel-api-client-provider ": "1.*"
 ```
 
 Run `composer install` to get the latest version of the package.
