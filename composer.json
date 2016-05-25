@@ -1,0 +1,28 @@
+{
+  "name": "triadev/LaravelApiClientProvider",
+  "description": "A ApiClientProvider for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.0",
+  "keywords": ["php", "laravel", "guzzlehttp", "api", "json"],
+  "homepage": "https://github.com/triadev/LaravelApiClientProvider.git",
+  "authors": [
+    {
+      "name": "Christoper Lorke",
+      "email": "christopher.lorke@gmx.de",
+      "homepage": "https://github.com/triadev",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "laravel/framework": "~5.2",
+    "guzzlehttp/guzzle": ">=6.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Triadev\\LaravelApiClientProvider\\": "src"
+    }
+  },
+  "minimum-stability": "dev"
+}
