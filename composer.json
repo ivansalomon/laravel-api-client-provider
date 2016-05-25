@@ -1,6 +1,6 @@
 {
   "name": "triadev/laravel-api-client-provider",
-  "description": "A ApiClientProvider for Laravel",
+  "description": "An ApiClientProvider for Laravel",
   "type": "library",
   "license": "MIT",
   "version": "1.0.0",
