@@ -1,7 +1,7 @@
 <?php
 namespace Triadev\LaravelApiClientProvider;
 
-use Triadev\LaravelApiClientProvider\Contract\ApiClientContract;
+use Triadev\LaravelApiClientProvider\Contract\ApiClientManagerContract;
 use Triadev\LaravelApiClientProvider\Manager\ApiClientManager;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
@@ -28,7 +28,7 @@ class ApiClientServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(ApiClientContract::class, function(Application $application){
+        $this->app->singleton(ApiClientManagerContract::class, function(Application $application){
             return new ApiClientManager($application);
         });
     }
