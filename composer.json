@@ -1,5 +1,5 @@
 {
-  "name": "triadev/laravel-api-client-provider.git",
+  "name": "triadev/laravel-api-client-provider",
   "description": "A ApiClientProvider for Laravel",
   "type": "library",
   "license": "MIT",
