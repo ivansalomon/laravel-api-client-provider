@@ -1,11 +1,11 @@
 {
-  "name": "triadev/LaravelApiClientProvider",
+  "name": "triadev/laravel-api-client-provider.git",
   "description": "A ApiClientProvider for Laravel",
   "type": "library",
   "license": "MIT",
   "version": "1.0.0",
   "keywords": ["php", "laravel", "guzzlehttp", "api", "json"],
-  "homepage": "https://github.com/triadev/LaravelApiClientProvider.git",
+  "homepage": "https://github.com/triadev/laravel-api-client-provider",
   "authors": [
     {
       "name": "Christoper Lorke",
